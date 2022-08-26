@@ -1,7 +1,12 @@
 /# Ruby Methods
 ## Q1 Write any simple Ruby Program to illustrate the defining and calling of method
-
+def first_lesson
+    puts "Welcome to introduction to ruby"
+end
+# calling of the method
+first_lesson
 ## Q2 You have a string, "I love espresso", return the length of the string
+"I love espresso".length
 
 
 ## Q3 Write a method where var1 and var2 are the parameters. Call the method. The statements to be executed are:
