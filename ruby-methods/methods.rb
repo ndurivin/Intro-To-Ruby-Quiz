@@ -14,8 +14,11 @@ method("Phase-1 was all about Introduction to Programming.", "Phase-2 was all ab
 
 ##Q4 Write a Ruby program which accept the user's first and last name and print them in reverse order with a 
 #space between them.
-def input(firstname, lastname)
-    lastname
+def full_name (fname, lname)
+    fullname = lname + " " + fname 
+    puts fullname
+end
+full_name("Sarah","Andrews")
 
 ## Q5 Ruby program to illustrate the passing of parameters to a method
 # Output 
